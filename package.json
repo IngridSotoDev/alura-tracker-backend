@@ -1,12 +1,32 @@
 {
-  "name": "api-alura-tracker",
+  "name": "restful-api-vercel",
   "version": "1.0.0",
-  "description": "api to alura tracker frontend",
-  "main": "api/server.js",
+  "description": "API created with the JSON Server package",
+  "main": "index.js",
   "scripts": {
-    "start": "node api/server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "json-server": "^0.17.4"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IngridSotoDev/alura-tracker-backend.git"
+  },
+  "keywords": [
+    "restful",
+    "rest",
+    "api",
+    "vercel",
+    "json",
+    "server",
+    "alura",
+    "tracker"
+  ],
+  "author": "Ingrid Soto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IngridSotoDev/alura-tracker-backend/issues"
+  },
+  "homepage": "https://github.com/IngridSotoDev/alura-tracker-backend#readme",
+  "devDependencies": {
+    "json-server": "^0.17.1"
   }
 }
