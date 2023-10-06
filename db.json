@@ -1,4 +1,14 @@
 {
-  "projects": [],
-  "tasks": []
+  "projects": [{ "id": 1, "descricao": "projeto teste" }],
+  "tasks": [
+    {
+      "id": 1,
+      "nome": "tarefa teste",
+      "duracaoEmSegundos": 20,
+      "projeto": {
+        "id": 1,
+        "descricao": "projeto teste"
+      }
+    }
+  ]
 }
