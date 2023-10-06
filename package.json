@@ -1,0 +1,12 @@
+{
+  "name": "api-alura-tracker",
+  "version": "1.0.0",
+  "description": "api to alura tracker frontend",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
